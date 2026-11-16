@@ -12,17 +12,16 @@ To get started:
        - chumputer_models/Scalevision/crop_vision/sam_vit_h_4b8939.pth
     
   4. Locate the extracted ZIP folder in your file browser and add the following files to match this folder structure:
+
+   ```  
      C:.
-     
       │   .loaded_stamp
       │   chumputer_bundle.tar
       │   run_chumputer.bat
       │   chumputer_user_guide.pdf
       │
       └───opt
-     
-          └───chumputer
-     
+          └───chumputer 
               │   ConvNeXtLargeSAM_SGD_history.pkl
               │   ConvNeXtLarge_SAM_model_file.hdf5
               │   effnetv2lhistory_2.pkl
@@ -31,13 +30,12 @@ To get started:
               │   NASNetLarge_SAM_model_file.hdf5
               │
               └───Scalevision
-     
                   └───crop_vision
-     
                           mask_weights.pth
                           sam_vit_h_4b8939.pth
                           target_feats.pth
                           weights.pth
+  ```
 
   6. Once you have verified that the files in the folder match the folder and file structure above, you can start annotating and labeling.
 
