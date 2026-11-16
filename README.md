@@ -37,7 +37,7 @@ To get started:
                           weights.pth
   ```
 
-  6. Once you have verified that the files in the folder match the folder and file structure above, you can start annotating and labeling.
+  5. Once you have verified that the files in the folder match the folder and file structure above, you can start annotating and labeling.
 
 
 There is a full user guide that will explain the app features and provide more detailed instructions for the setup. 
