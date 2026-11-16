@@ -13,13 +13,16 @@ To get started:
     
   4. Locate the extracted ZIP folder in your file browser and add the following files to match this folder structure:
      C:.
+     
       │   .loaded_stamp
       │   chumputer_bundle.tar
       │   run_chumputer.bat
       │   chumputer_user_guide.pdf
       │
       └───opt
+     
           └───chumputer
+     
               │   ConvNeXtLargeSAM_SGD_history.pkl
               │   ConvNeXtLarge_SAM_model_file.hdf5
               │   effnetv2lhistory_2.pkl
@@ -28,13 +31,15 @@ To get started:
               │   NASNetLarge_SAM_model_file.hdf5
               │
               └───Scalevision
+     
                   └───crop_vision
+     
                           mask_weights.pth
                           sam_vit_h_4b8939.pth
                           target_feats.pth
                           weights.pth
 
-  5. Once you have verified that the files in the folder match the folder and file structure above, you can start annotating and labeling.
+  6. Once you have verified that the files in the folder match the folder and file structure above, you can start annotating and labeling.
 
 
 There is a full user guide that will explain the app features and provide more detailed instructions for the setup. 
